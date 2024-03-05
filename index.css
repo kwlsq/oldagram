@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #EDEDED;
+    user-select: none;
+}
+
+/* layout general*/
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+
+/* layout header */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    box-sizing: border-box;
+}
+
+
+/* layout main */
+section .container{
+    margin-bottom: 20px;
+}
+
+.post{
+    height: 375px;
+    width: 100%;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.post-footer div{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.comment-section{
+    padding: 0px 10px 10px 10px;
+}
+
+.comment-section span{
+    margin-right: 3px;
+}
+
+
+/* image */
+.logo{
+    height: 55px;
+}
+
+.user-avatar{
+    border-radius: 50%;
+    height: 35px
+}
+
+.post-footer img {
+    height: 25px;
+}
+
+.post-footer img:hover,
+.post-footer img:focus {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+/* typography */
+.bold{
+    font-weight: 900;
+}
+
+.txt-medium{
+    font-size: 14px;
+}
+
+section p{
+    margin: 0;
+}
+
+
+/* button */
+.btn-like{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
